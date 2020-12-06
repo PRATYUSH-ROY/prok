@@ -1,0 +1,104 @@
+label {
+    font-size: 35px;
+    color: red;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+h1 {
+    font-size: 65px;
+    color: red;
+    -webkit-animation: gloww 1s ease-in-out infinite alternate;
+    -moz-animation: gloww 1s ease-in-out infinite alternate;
+    animation: gloww 1s ease-in-out infinite alternate;
+}
+
+body {
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url("back.gif");
+    background-size: contain;
+}
+
+#fffform {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    z-index: 4;
+}
+
+img {
+    border: 8px black solid;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    animation-name: dooooo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#ooo {
+    filter: blur(5px);
+    filter: invert();
+}
+
+.btn {
+    font-size: 25px;
+    width: 80%;
+    color: rgb(255, 230, 0);
+    font-weight: 900;
+}
+
+.gloww {
+    -webkit-animation: gloww 1s ease-in-out infinite alternate;
+    -moz-animation: gloww 1s ease-in-out infinite alternate;
+    animation: gloww 1s ease-in-out infinite alternate;
+}
+
+input::placeholder {
+    background: rgb(6, 233, 233);
+    color: rgb(0, 255, 13);
+    font-size: 25px;
+}
+
+.form-control {
+    background: rgb(2, 245, 245);
+    color: red;
+    font-size: 25px;
+    -webkit-animation: gloww 1s ease-in-out infinite alternate;
+    -moz-animation: gloww 1s ease-in-out infinite alternate;
+    animation: gloww 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #73ff01, 0 0 40px #73ff01, 0 0 50px #73ff01, 0 0 60px #73ff01, 0 0 70px #73ff01;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #73ff01, 0 0 40px #73ff01, 0 0 50px #73ff01, 0 0 60px #73ff01, 0 0 70px #73ff01, 0 0 80px #73ff01;
+    }
+}
+
+@-webkit-keyframes gloww {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffee01, 0 0 40px #ffee01, 0 0 50px #ffee01, 0 0 60px #ffee01, 0 0 70px #ffee01;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ffee01, 0 0 40px #ffee01, 0 0 50px #ffee01, 0 0 60px #ffee01, 0 0 70px #ffee01, 0 0 80px #ffee01;
+    }
+}
+@keyframes dooooo {
+  from {top:0px;}
+  to {top:300px;}
+}
+
+h2{
+    color:yellow;
+    font-size: 65px;
+}
+#gggg{
+    display:none;
+}
